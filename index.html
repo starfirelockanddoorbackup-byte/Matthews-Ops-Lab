@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matthews Operations Lab</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #07090e;
+      color: #e2e8f0;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="selection:bg-blue-500 selection:text-white min-h-screen flex flex-col justify-between">
+
+  <!-- Minimalist Top Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#07090e]/80 border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-2.5 h-2.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6]"></div>
+        <span class="font-semibold tracking-wider text-white uppercase text-sm sm:text-base">Matthew Operations Lab</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-xs font-mono text-slate-400">
+        <a href="#spearhead" class="hover:text-white transition">01 / SPEARHEAD</a>
+        <a href="#intel" class="hover:text-white transition">02 / INTEL BRIEF</a>
+        <a href="#apex" class="hover:text-white transition">03 / PROJECT APEX</a>
+        <a href="#quiz" class="hover:text-white transition">04 / PROBLEM-SOLVERS</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Showcase Container (Oracle Style Alternating Rows) -->
+  <main class="flex-grow">
+    
+    <!-- Hero / Intro Space -->
+    <section class="max-w-7xl mx-auto px-6 pt-20 pb-16 text-center md:text-left">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs font-mono text-blue-400 mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse"></span>
+        SYSTEMS ARCHITECTURE & TACTICAL NODES
+      </div>
+      <h1 class="text-4xl md:text-6xl font-light tracking-tight text-white max-w-3xl leading-tight">
+        Precision tools engineered for <span class="font-normal text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">operational resilience</span>.
+      </h1>
+    </section>
+
+    <!-- Project 1: SPEARHEAD -->
+    <section id="spearhead" class="border-t border-slate-900 py-24 bg-[#090d16]">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 space-y-6">
+          <div class="text-xs font-mono text-blue-400 uppercase tracking-widest">Tactical Simulation Node</div>
+          <h2 class="text-3xl md:text-4xl font-light text-white tracking-tight">SPEARHEAD // Small-Unit Simulator</h2>
+          <div class="space-y-4 text-slate-400 text-sm md:text-base leading-relaxed">
+            <p><strong class="text-slate-200 font-medium">The Problem:</strong> Traditional tactical training relies either on expensive, rigid simulation software or high-cost live exercises, leaving a gap for rapid, zero-install rehearsal of small-unit geometry, enfilade angles, and suppressive discipline.</p>
+            <p><strong class="text-slate-200 font-medium">The Solution:</strong> A browser-based tactical sandbox featuring real-time ballistic dispersion, topographic elevation advantages, and full TCCC casualty stabilization and litter-carry evacuation workflows under active hostile pressure.</p>
+          </div>
+          <div class="pt-4 flex items-center gap-4">
+            <a href="https://starfirelockanddoorbackup-byte.github.io/spearhead/" class="inline-flex items-center gap-2 px-6 py-3 rounded bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition shadow-lg shadow-blue-900/30">
+              Launch Tool
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-6">
+          <div class="rounded-xl border border-slate-800 bg-slate-950 p-3 shadow-2xl relative group overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-transparent pointer-events-none"></div>
+            <div class="rounded-lg bg-[#0d1117] border border-slate-800/80 p-4 font-mono text-xs text-slate-400 space-y-3">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-blue-400 font-bold">SPEARHEAD // SIM-NODE 01</span>
+                <span class="text-emerald-400 flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>ACTIVE</span>
+              </div>
+              <div class="h-48 rounded bg-[#090d13] border border-slate-900 flex items-center justify-center relative overflow-hidden">
+                <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#30363d_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                <div class="text-center space-y-2">
+                  <div class="inline-block px-3 py-1 rounded bg-blue-950/60 border border-blue-800/50 text-blue-300 text-[11px]">TCCC CASUALTY EXTRACTION PROTOCOL</div>
+                  <div class="text-[10px] text-slate-500">Elevation: RIDGE (+2m) // Suppression Active</div>
+                </div>
+              </div>
+              <div class="flex justify-between text-[11px] text-slate-500">
+                <span>Active Units: 5/5</span>
+                <span>Bleed Timer: 54s</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 2: Daily Intel Brief & Tracker -->
+    <section id="intel" class="border-t border-slate-900 py-24 bg-[#07090e]">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 order-2 lg:order-1">
+          <div class="rounded-xl border border-slate-800 bg-slate-950 p-3 shadow-2xl relative group overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-tr from-indigo-500/5 to-transparent pointer-events-none"></div>
+            <div class="rounded-lg bg-[#0d1117] border border-slate-800/80 p-4 font-mono text-xs text-slate-400 space-y-3">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-indigo-400 font-bold">INTEL DESK // MULTI-DOMAIN</span>
+                <span class="text-amber-400">DEFCON 3</span>
+              </div>
+              <div class="h-48 rounded bg-[#090d13] border border-slate-900 p-4 space-y-2">
+                <div class="text-[11px] text-slate-300 font-bold">DAILY SIGNAL SYNTHESIS WIRE</div>
+                <div class="text-[10px] text-slate-400">• Water Infrastructure Risk: Municipal grid dependency audit.</div>
+                <div class="text-[10px] text-slate-400">• Financial Signaling: Advanced drone & defense capital flows.</div>
+                <div class="text-[10px] text-slate-400">• Weather Telemetry: Regional high 86°F / low 74°F [cite: 1].</div>
+              </div>
+              <div class="flex justify-between text-[11px] text-slate-500">
+                <span>Feed Status: Synced</span>
+                <span>Source: Open-Source OSINT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-6 order-1 lg:order-2 space-y-6">
+          <div class="text-xs font-mono text-indigo-400 uppercase tracking-widest">Intelligence Node</div>
+          <h2 class="text-3xl md:text-4xl font-light text-white tracking-tight">Daily Open-Source Intel Brief & Tracker</h2>
+          <div class="space-y-4 text-slate-400 text-sm md:text-base leading-relaxed">
+            <p><strong class="text-slate-200 font-medium">The Problem:</strong> Information overload and signal-to-noise degradation make it difficult to rapidly assess geopolitical conflict, water security shifts, and macroeconomic defense indicators without manual synthesis.</p>
+            <p><strong class="text-slate-200 font-medium">The Solution:</strong> A lean, multi-tab telemetry dashboard featuring automated OSINT aggregation, weather tracking, DEFCON status alerts, and forward-looking infrastructure risk analysis.</p>
+          </div>
+          <div class="pt-4 flex items-center gap-4">
+            <a href="https://starfirelockanddoorbackup-byte.github.io/dailyintelbrief/" class="inline-flex items-center gap-2 px-6 py-3 rounded bg-slate-800 hover:bg-slate-700 text-white font-medium text-sm transition border border-slate-700">
+              Access Dashboard
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 3: Project APEX Brief -->
+    <section id="apex" class="border-t border-slate-900 py-24 bg-[#090d16]">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 space-y-6">
+          <div class="text-xs font-mono text-emerald-400 uppercase tracking-widest">Resilience Infrastructure</div>
+          <h2 class="text-3xl md:text-4xl font-light text-white tracking-tight">Project APEX Brief</h2>
+          <div class="space-y-4 text-slate-400 text-sm md:text-base leading-relaxed">
+            <p><strong class="text-slate-200 font-medium">The Problem:</strong> Centralized municipal utility and cloud-compute dependencies leave organizations and families vulnerable during grid disruptions and communication blackouts.</p>
+            <p><strong class="text-slate-200 font-medium">The Solution:</strong> An architectural blueprint for an off-grid, solar-powered, EMP-shielded local compute node running open-source large language models and localized RAG databases for continuous independent operations.</p>
+          </div>
+          <div class="pt-4 flex items-center gap-4">
+            <a href="https://starfirelockanddoorbackup-byte.github.io/project-apex/" class="inline-flex items-center gap-2 px-6 py-3 rounded bg-slate-800 hover:bg-slate-700 text-white font-medium text-sm transition border border-slate-700">
+              View Specification
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="lg:col-span-6">
+          <div class="rounded-xl border border-slate-800 bg-slate-950 p-3 shadow-2xl relative group overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-tr from-emerald-500/5 to-transparent pointer-events-none"></div>
+            <div class="rounded-lg bg-[#0d1117] border border-slate-800/80 p-4 font-mono text-xs text-slate-400 space-y-3">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-emerald-400 font-bold">PROJECT APEX // ARCHITECTURE</span>
+                <span class="text-slate-300">OFF-GRID NODE</span>
+              </div>
+              <div class="h-48 rounded bg-[#090d13] border border-slate-900 p-4 flex flex-col justify-center items-center text-center space-y-2">
+                <div class="text-emerald-400 text-sm font-bold">EMP-SHIELDED LOCAL COMPUTE</div>
+                <div class="text-[11px] text-slate-400 max-w-xs">Solar Array &rarr; MPPT Inverter &rarr; LFP Battery Bank &rarr; Local RAG Node</div>
+              </div>
+              <div class="flex justify-between text-[11px] text-slate-500">
+                <span>Power Source: 100% Solar</span>
+                <span>Status: Hardened</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 4: Future Problem-Solvers Quiz -->
+    <section id="quiz" class="border-t border-slate-900 py-24 bg-[#07090e]">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6 order-2 lg:order-1">
+          <div class="rounded-xl border border-slate-800 bg-slate-950 p-3 shadow-2xl relative group overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-tr from-amber-500/5 to-transparent pointer-events-none"></div>
+            <div class="rounded-lg bg-[#0d1117] border border-slate-800/80 p-4 font-mono text-xs text-slate-400 space-y-3">
+              <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                <span class="text-amber-400 font-bold">EDUCATIONAL LAB // ADVISORY</span>
+                <span class="text-slate-300">INTERACTIVE</span>
+              </div>
+              <div class="h-48 rounded bg-[#090d13] border border-slate-900 p-4 flex flex-col justify-center items-center text-center space-y-2">
+                <div class="text-amber-300 text-sm font-bold">FUTURE PROBLEM-SOLVERS QUIZ</div>
+                <div class="text-[11px] text-slate-400 max-w-xs">Guiding next-generation resilience engineers through structural, medical, and systems design challenges.</div>
+              </div>
+              <div class="flex justify-between text-[11px] text-slate-500">
+                <span>Module: Active</span>
+                <span>Target: Youth Resilience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-6 order-1 lg:order-2 space-y-6">
+          <div class="text-xs font-mono text-amber-400 uppercase tracking-widest">Educational Lab</div>
+          <h2 class="text-3xl md:text-4xl font-light text-white tracking-tight">Future Problem-Solvers Quiz</h2>
+          <div class="space-y-4 text-slate-400 text-sm md:text-base leading-relaxed">
+            <p><strong class="text-slate-200 font-medium">The Problem:</strong> Standard educational paths often fail to engage young minds with practical real-world problem solving, engineering resilience, and technical preparedness.</p>
+            <p><strong class="text-slate-200 font-medium">The Solution:</strong> An interactive web-based guidance and quiz application that walks students through practical scenarios in structural engineering, field medicine, and resource systems.</p>
+          </div>
+          <div class="pt-4 flex items-center gap-4">
+            <a href="https://starfirelockanddoorbackup-byte.github.io/Future-Problem-Solvers/" class="inline-flex items-center gap-2 px-6 py-3 rounded bg-slate-800 hover:bg-slate-700 text-white font-medium text-sm transition border border-slate-700">
+              Launch Quiz Module
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Minimalist Footer -->
+  <footer class="border-t border-slate-900 py-12 bg-[#05070b]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-xs font-mono text-slate-500">
+      <div>© 2026 Matthews Operations Lab. All rights reserved.</div>
+      <div class="flex items-center gap-6">
+        <span>SECURE CLIENT-SIDE HOSTING</span>
+        <span class="w-1.5 h-1.5 rounded-full bg-slate-700"></span>
+        <span>FLORIDA, USA</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
